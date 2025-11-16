@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  serverExternalPackages: ['@libsql/client', 'libsql',"@payloadcms/db-sqlite"]
 };
 
 export default nextConfig;
